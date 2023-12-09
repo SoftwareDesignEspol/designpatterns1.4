@@ -6,11 +6,11 @@ public class Inventory implements AvailableIterableCollections, ShopAvailableIte
         return new AvailableProductIterator(this);
     }
 
-    public ShopAvailableProductIterator createIterator() {
+    public ShopAvailableProductIterator createIterator2() {
         return new ShopAvailableProductIterator(this);
     }
 
-    public DamagedAvailableProductIterator createIterator() {
+    public DamagedAvailableProductIterator createIterator3() {
         return new DamagedAvailableProductIterator(this);
     }
 

@@ -3,7 +3,7 @@ package org.example.Iterator;
 import java.util.List;
 
 public class DamagedAvailableProductIterator implements Iterator{
-    private inventory;
+    private Inventory inventory;
     private int index;
 
     public DamagedAvailableProductIterator(Inventory inventory) {
